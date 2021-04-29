@@ -21,12 +21,13 @@
     SENTRY_PROJECT = "mainnet-staging-wallet"
     MOONPAY_API_KEY = "pk_live_jYDdkGL7bJsrwalHZs1lVIhdOHOtK8BR"
     TOKEN_CONTRACTS = 'berryclub.ek.near,wrap.near,6b175474e89094c44da98b954eedeac495271d0f.factory.bridge.near'
-
+    REACT_APP_RECAPTCHA_API_KEY = "6Lc3uMQaAAAAACaiB6zfh0Bh9NiFlPdHUPREawcv"
 
 [context.production.environment]
     SHOW_PRERELEASE_WARNING = "no"
     BROWSER_MIXPANEL_TOKEN = "d5bbbbcc3a77ef8427f2b806b5689bf8"
     SENTRY_PROJECT = "mainnet-wallet"
+    REACT_APP_RECAPTCHA_API_KEY = "6LfS0MQaAAAAAA664F8VrthoXY4v5vlk_OTY5Re1"
 
 [[headers]]
     for = "/*"
