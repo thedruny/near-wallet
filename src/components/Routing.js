@@ -307,7 +307,7 @@ class Routing extends Component {
                                 path='/receive-money'
                                 component={ReceiveMoneyWithRouter}
                             />
-                            <PrivateRoute
+                            <PrivateRouteLimited
                                 exact
                                 path='/buy'
                                 component={BuyNear}
