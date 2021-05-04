@@ -285,7 +285,7 @@ class Routing extends Component {
                                 path='/contacts'
                                 component={ContactsWithRouter}
                             />
-                            <PrivateRoute
+                            <PrivateRouteLimited
                                 exact
                                 path='/authorized-apps'
                                 component={AuthorizedAppsWithRouter}
