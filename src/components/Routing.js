@@ -322,7 +322,7 @@ class Routing extends Component {
                                 path='/profile/:accountId?'
                                 component={Profile}
                             />
-                            <PrivateRoute
+                            <PrivateRouteLimited
                                 exact
                                 path='/sign'
                                 component={SignWithRouter}
