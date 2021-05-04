@@ -342,7 +342,7 @@ class Routing extends Component {
                                 path='/node-details'
                                 component={NodeDetailsWithRouter}
                             />
-                            <PrivateRoute
+                            <PrivateRouteLimited
                                 path='/staking'
                                 component={StakingContainer}
                                 render={() => (
