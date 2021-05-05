@@ -1,8 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import accountIcon from '../../images/icon-account.svg';
-import arrowAuth from '../../images/icon-authorized.svg';
 import iconKeys from '../../images/icon-keys.svg';
 import { Translate } from 'react-localize-redux';
 import { ENABLE_FULL_ACCESS_KEYS } from '../../utils/wallet';
